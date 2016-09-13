@@ -1,0 +1,14 @@
+{
+	"name": "ryanshrum/hacksaw",
+	"description": "A simple text truncation plugin for Craft CMS.",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Ryan Shrum",
+			"homepage": "http://ryanshrum.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
