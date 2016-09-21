@@ -16,8 +16,8 @@ Hacksaw is a Twig filter that accepts the following parameters:
 
 | Parameter     | Type      | Default   | Description                                                                                                       |
 | ------------- | :-------: | :-------: | ----------------------------------------------------------------------------------------------------------------- |
-| hack          | string    | 'p'       | What you want to hack on (characters, words or paragraphs - can also use first letter as short hand 'c', 'w' or 'p')   |
-| limit         | int       | 1         | Starting point for chars limit (used with chars param)                                                            |
+| hack          | string    | `'p'`       | What you want to hack on (`'characters'`, `'words'` or `'paragraphs'` - can also use first letter as short hand `'c'`, `'w'` or `'p'`)   |
+| limit         | int       | `1`         | Starting point for chars limit (used with chars param)                                                            |
 | allow         | string    | `null`    | Sometimes there are HTML tags in your content that you don' removed, pass them here                               |
 | append        | string    | `null`    | String to append to the end of the excerpt                                                                        |
 
