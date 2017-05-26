@@ -37,6 +37,9 @@ class HacksawTwigExtension extends \Twig_Extension
 
     public function hacksaw($content, $hack = 'p', $limit = 1, $allow = null, $append = null)
     {
+        // Remove non-breaking spaces to prevent them from turning into black diamonds with question marks
+        $content = preg_replace('~\xc2\xa0~', ' ', $content);
+
         if ($hack == 'c' || $hack == 'chars' || $hack == 'characters')
         {
             $clean_content = $this->cleanHtml($content, $allow);
