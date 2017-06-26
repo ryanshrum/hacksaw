@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2016 Ryan Shrum
  * @link      ryanshrum.com
  * @package   Hacksaw
- * @since     2.0.0
+ * @since     2.0.1
  */
 
 namespace Craft;
