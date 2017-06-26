@@ -67,7 +67,7 @@ class HacksawTwigExtension extends \Twig_Extension
 
                 if ($word_count > $limit)
                 {
-                    $words = preg_split('/\s+/', $clean_content);
+                    $words = preg_split('/\s+/u', $clean_content);
                     $clean_content = implode(' ', array_slice($words, 0, $limit));
                     $return = $clean_content;
 
