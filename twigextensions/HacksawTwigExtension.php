@@ -47,7 +47,7 @@ class HacksawTwigExtension extends \Twig_Extension
             }
             else
             {
-                $return = preg_replace('/\s+?(\S+)?$/', '', mb_substr($clean_content, 0, $limit)) . $append;
+                $return = preg_replace('/\s+?(\S+)?$/u', '', mb_substr($clean_content, 0, $limit)) . $append;
             }
 
             return $this->closeTags($return);
@@ -71,7 +71,7 @@ class HacksawTwigExtension extends \Twig_Extension
                     $clean_content = implode(' ', array_slice($words, 0, $limit));
                     $return = $clean_content;
 
-                    if (preg_match("/[0-9.!?,;:]$/", $clean_content))
+                    if (preg_match("/[0-9.!?,;:]$/u", $clean_content))
                     {
                         $return = mb_substr($clean_content, 0, -1);
                     }
