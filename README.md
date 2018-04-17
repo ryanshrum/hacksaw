@@ -1,3 +1,10 @@
+#### Notice (4/17/2018):
+Unfortunately, due to not working with Craft anymore and a lack of time, I haven&rsquo;t been able to get Hacksaw updated for [Craft 3](https://craftcms.com/news/craft-3). I would recommend NY Studio's [Tyopgrify](https://github.com/nystudio107/craft-typogrify) or Top Shelf Craft&rsquo;s [Wordsmith](https://wordsmith.docs.topshelfcraft.com/) (which includes native backwards compatibility for Hacksaw).
+
+Additionally, if you would like to takeover as the maintainer of Hacksaw, please let me know and I will handover the reins.
+
+---
+
 # Hacksaw for Craft CMS
 
 A simple text truncation plugin for [Craft CMS](https://craftcms.com/) that takes your content and hacks it down to more manageable sizes.
